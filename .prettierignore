@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+ai-ml-env/
+
+# Build outputs
+build/
+dist/
+*.pyc
+__pycache__/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python specific
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Python files (use Black instead)
+*.py
+*.pyi
+
+# Data files
+*.csv
+*.pkl
+*.h5
+*.hdf5
+
+# Model files
+models/
+results/
